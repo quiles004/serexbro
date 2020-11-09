@@ -1,0 +1,51 @@
+db.jugadores.insert([
+   {
+    jugador: "Lebron James",
+    nacionalidad:"Estadounidense",
+    posicion:["alero","base","ala-pivot"],
+    tiros_de_campo:"50,5",
+    altura:"2.06",
+    tiros_libres:"73,4",
+   },
+   {
+    jugador: "Stephen Curry",
+    nacionalidad:"Estadounidense",
+    posicion:["base","escolta"],
+    tiros_de_campo:"40,2",
+    altura:"191",
+    tiros_libres:"90,6",
+   },
+   {
+   jugador: "Kevin Durant",
+   nacionalidad:"Estadounidense",
+   posicion:["escolta","alero","ala-pivot"],
+   tiros_de_campo:"52,1",
+   altura:"208",
+   tiros_libres:"88,3",
+   },
+   {
+    jugador: "Giannis Antetokounmpo",
+    nacionalidad:"Greco",
+    posicion:["base","alero","ala-pivot"],
+    tiros_de_campo:"55,3",
+    altura:"211",
+    tiros_libres:"72,2",
+    },
+  {
+    jugador: "Luka Doncic",
+    nacionalidad:"Esloveno",
+    posicion:["escolta","alero"],
+    tiros_de_campo:"46,3",
+    altura:"201",
+    tiros_libres:"73,7",
+    },
+  {
+    jugador: "Rudy Gobert",
+    nacionalidad:"Frances",
+    posicion:"pivot",
+    tiros_de_campo:"69.3",
+    altura:"216",
+    tiros_libres:"63,1",
+    },
+])
+
